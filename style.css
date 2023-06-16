@@ -1,0 +1,44 @@
+.total {
+    background-image: url("IMAGENS/LAROC2.jpg");/* coloquei a imagem de fundo */ 
+    background-repeat: no-repeat;
+    background-size: cover; /*ocupar total tela*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.left { /* colocar metade da  tela esbranquiçada*/
+    background-color: rgba(255, 255, 255, 0.749); /* para poder escolher a cor */
+    width: 50%; /* quantos % da tela eu queria, 50% porque queria a metade */
+    opacity: 100%; /* intensidade da opacidade */
+    height: 100%; /* tamanho em comprimento que eu queria que ocupasse da tela */
+
+}
+
+.right {
+
+    display: flex;
+    justify-content: center; /*colocando no centro*/
+    align-items: center;/*colocando no centro*/
+    height: 100%;
+    width: 50%;
+}
+
+.right .btn.btn-primary{
+    padding: 50px; /*modificando todos os lados */
+    padding-left: 50px; /*modificando a largura */
+    padding-right: 50px; /*modificando o comprimento*/
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;/*colocando no centro*/
+    align-items: center;/*colocando no centro*/
+    height: 100%;
+
+}
+/*=========================================== pagina de entrada feita ======================================*/
+
+
